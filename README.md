@@ -73,8 +73,5 @@ Este projeto tem como objetivo criar uma **API REST em Spring Boot** para o cada
       "message": "O e-mail deve ser válido."
     }
   ]
-}'''
-
----
-## ⚙️ Configuração adicional (opcional)
+}
 
