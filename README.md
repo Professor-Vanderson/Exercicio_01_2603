@@ -39,7 +39,7 @@ Este projeto tem como objetivo criar uma **API REST em Spring Boot** para o cada
 
 ## 🛠 Tecnologias utilizadas
 
-- Java 17+
+- Java 21
 - Spring Boot
 - Spring Web
 - Spring Data JPA
@@ -74,3 +74,9 @@ Este projeto tem como objetivo criar uma **API REST em Spring Boot** para o cada
     }
   ]
 }
+
+## ⚙️ Configuração adicional (opcional)
+Adicione as linhas abaixo no arquivo application.properties para que as mensagens de erro sejam sempre incluídas nas respostas:
+
+server.error.include-message=always
+server.error.include-binding-errors=always
